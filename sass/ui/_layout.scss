@@ -55,8 +55,9 @@
 	a {
 		@extend %lap-margin--left;
 		@extend %dis-block;
-		line-height: 48px;
 		@extend %font-secondary;
+		@include font-size(20px, $line-height: false);
+		line-height: 48px;
 	}
 }
 

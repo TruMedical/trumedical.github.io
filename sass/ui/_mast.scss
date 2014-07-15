@@ -4,7 +4,6 @@
 
 .mast--home {
 	@extend %text--center;
-	@extend %margin--bottom;
 	@extend %padding--ends;
 	@extend %lap-padding-off--ends;
 	background-color: $brand-primary;

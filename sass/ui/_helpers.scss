@@ -28,5 +28,14 @@
 
 .lede {
 	@extend %text--center;
-	@include font-size(20px);
+	@include font-size(22px, $line-height: false);
+}
+
+.highlight {
+	@extend %cf;
+	@extend %padding--ends;
+	@extend %lap-padding-dbl--ends;
+	@extend %margin--bottom;
+	@extend %text--center;
+	background-color: #f1f1f1;
 }
