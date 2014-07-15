@@ -1,0 +1,73 @@
+//////////////////////////////////////////////////////////////////
+// layout styles
+//////////////////////////////////////////////////////////////////
+
+.site {
+	border-top: 6px solid #333;
+}
+
+.container {
+	max-width: $site-width;
+	width: 90%;
+	margin: auto;
+}
+
+.site-header {
+	@extend %cf;
+	@extend %padding--top;
+	@extend %margin--bottom;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.site-title {
+	@extend %font-secondary;
+	@extend %margin--bottom;
+	@include font-size(44px);
+	color: #2a36b1;
+
+	@include media-query(lap) {
+		float: left;
+	}
+}
+
+.site-nav {
+	@include media-query(lap) {
+		float: right;
+	}
+}
+
+.main-nav {
+	@extend %margin-off--bottom;
+
+	li {
+		@extend %lap-dis-inline-block;
+		border-bottom: 1px solid #f1f1f1;
+
+		&:last-child {
+			border-bottom: 0;
+		}
+
+		@include media-query(lap) {
+			border-bottom: 0;
+		}
+	}
+
+	a {
+		@extend %lap-margin--left;
+		@extend %dis-block;
+		line-height: 48px;
+		@extend %font-secondary;
+	}
+}
+
+.page-footer {
+	@extend %padding--top;
+	@extend %text--center;
+	border-top: 1px solid #f1f1f1;
+}
+
+.site-footer {
+	@extend %padding--top;
+	border-top: 1px solid #f1f1f1;
+	color: #727272;
+}

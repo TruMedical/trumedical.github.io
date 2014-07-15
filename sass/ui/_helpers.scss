@@ -1,0 +1,32 @@
+//////////////////////////////////////////////////////////////////
+// helper class & placeholders
+//////////////////////////////////////////////////////////////////
+
+
+/**
+ * font families
+ */
+
+%font-primary        { font-family: Georgia, serif; }
+%font-secondary      { font-family: Helvetica, sans-serif; }
+
+/**
+ * colors
+ */
+
+%color-brand-primary { color: $brand-primary; }
+
+/**
+ * quick clear
+ */
+
+.clear               { clear: both; }
+
+/**
+ * lede paragraph
+ */
+
+.lede {
+	@extend %text--center;
+	@include font-size(20px);
+}

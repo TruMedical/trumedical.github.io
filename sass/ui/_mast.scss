@@ -1,0 +1,21 @@
+//////////////////////////////////////////////////////////////////
+// custom mast styles
+//////////////////////////////////////////////////////////////////
+
+.mast--home {
+	@extend %text--center;
+	@extend %margin--bottom;
+	@extend %padding--ends;
+	@extend %lap-padding-off--ends;
+	background-color: $brand-primary;
+	color: #fff;
+	margin-top: -$bsu;
+
+	h2 {
+		@extend %margin-off--bottom;
+
+		@include media-query(lap) {
+			@include font-size(50px);
+		}
+	}
+}

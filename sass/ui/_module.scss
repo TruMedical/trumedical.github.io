@@ -1,0 +1,40 @@
+//////////////////////////////////////////////////////////////////
+// module of data
+//////////////////////////////////////////////////////////////////
+
+.module {
+	@extend %margin--bottom;
+	@extend %padding;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+}
+
+.module__title {
+	@extend %margin-off--bottom;
+}
+
+.module__img-group {
+	@extend %margin--right;
+	max-width: 25%;
+	float: left;
+}
+
+.module__img {
+	@extend %margin-half--bottom;
+	border-radius: 5px;
+}
+
+.module__desc {
+	@include font-size(11px);
+	color: #727272;
+	clear: left;
+	line-height: 1;
+}
+
+.module__text {
+	overflow: hidden;
+}
+
+.module__link {
+	clear: both;
+}
