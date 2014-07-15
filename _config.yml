@@ -1,0 +1,12 @@
+# Site settings
+title: TruMedical
+email: info@trumedical.com
+description: "TruMedical is an expert in regenerative medicine, and provides high-quality products and services."
+baseurl: ""
+url: "http://trumedical.com"
+twitter_username: trumedical
+github_username:  trumedical
+
+# Build settings
+markdown: kramdown
+permalink: pretty
