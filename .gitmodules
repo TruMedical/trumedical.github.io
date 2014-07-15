@@ -1,0 +1,3 @@
+[submodule "sass/ark"]
+	path = sass/ark
+	url = http://github.com/drewbolles/ark.git
