@@ -10,3 +10,4 @@ github_username:  trumedical
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude: ['sass']
