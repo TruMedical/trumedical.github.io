@@ -10,6 +10,6 @@ We off high-quality regenerative medicine services and consultation. Our service
 * Service 2
 
 <div class="page-footer">
-	<p>Interested in finding out more?</p>
-	<p><a href="mailto:info@trumedical.com" class="btn btn--primary">Contact us now</a></p>
+	<p>Ready to incorporate regenerative medicine in your practice?</p>
+	<p><a href="mailto:info@trumedical.com" class="btn btn--primary">Get in touch</a></p>
 </div>

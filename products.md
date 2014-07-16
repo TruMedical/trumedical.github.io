@@ -30,7 +30,9 @@ We provide high-quality regenerative medical products.
 				<p class="module__desc">Centrifuge, &copy; 2014</p>
 			</div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec nisi eu nunc consequat consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-			<a href="#" class="btn btn--primary">Find our more</a>
+			<div class="module__link">
+				<a href="#" class="btn btn--primary">Find out more</a>
+			</div>
 		</div>
 	</div>
 
@@ -44,7 +46,9 @@ We provide high-quality regenerative medical products.
 				<p class="module__desc">Centrifuge, &copy; 2014</p>
 			</div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec nisi eu nunc consequat consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ut imperdiet dui, quis eleifend risus. Cras vitae accumsan sem. Praesent ornare, purus nec imperdiet viverra.</p>
-			<a href="#" class="btn btn--primary">Find out more</a>
+			<div class="module__link">
+				<a href="#" class="btn btn--primary">Find out more</a>
+			</div>
 		</div>
 	</div>
 
@@ -56,8 +60,9 @@ We provide high-quality regenerative medical products.
 				<p class="module__desc">Centrifuge, &copy; 2014</p>
 			</div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec nisi eu nunc consequat consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ut imperdiet dui, quis eleifend risus. Cras vitae accumsan sem. Praesent ornare, purus nec imperdiet viverra.</p>
-			
-			<a href="#" class="btn btn--primary">Find out more</a>
+			<div class="module__link">
+				<a href="#" class="btn btn--primary">Find out more</a>
+			</div>
 		</div>
 	</div>
 
@@ -70,7 +75,9 @@ We provide high-quality regenerative medical products.
 				<p class="module__desc">Centrifuge, &copy; 2014</p>
 			</div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec nisi eu nunc consequat consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-			<a href="#" class="btn btn--primary">Find our more</a>
+			<div class="module__link">
+				<a href="#" class="btn btn--primary">Find out more</a>
+			</div>
 		</div>
 	</div>
 
@@ -83,8 +90,16 @@ We provide high-quality regenerative medical products.
 				<p class="module__desc">Centrifuge, &copy; 2014</p>
 			</div>
 			<p class="module__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec nisi eu nunc consequat consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ut imperdiet dui, quis eleifend risus. Cras vitae accumsan sem.</p>
-			<a href="#" class="btn btn--primary">Find out more</a>
+			<div class="module__link">
+				<a href="#" class="btn btn--primary">Find out more</a>
+			</div>
 		</div>
 	</div>
 
+</div>
+
+<div class="page-footer">
+    <h4>Want to learn more?</h4>
+    <p>Checkout our <a href="#">resources</a> section for articles, publications, and documents regarding regnerative medicine including <strong>plasma-rich platements</strong>, <strong>cetrifuges</strong>.</p>
+    <p><a href="#" class="btn btn--primary">View resources</a></p>
 </div>
