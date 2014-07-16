@@ -10,7 +10,8 @@
 }
 
 .module__title {
-	@extend %margin-off--bottom;
+	@extend %margin-half--bottom;
+	line-height: 1;
 }
 
 .module__img-group {
@@ -37,4 +38,5 @@
 
 .module__link {
 	clear: both;
+	text-align: right;
 }

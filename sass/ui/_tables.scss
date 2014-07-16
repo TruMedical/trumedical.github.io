@@ -1,0 +1,27 @@
+//////////////////////////////////////////////////////////////////
+// table stylings
+//////////////////////////////////////////////////////////////////
+
+/**
+ * contact table
+ */
+
+.contact-table { 
+	@extend %margin--bottom;
+	width: 50%;
+}
+
+.col {
+	padding: 6px 12px;
+	border-bottom: 1px solid #f1f1f1;
+
+	.row-last & {
+		border-bottom: 0;
+	}
+}
+
+.col-1 {
+	@extend %text--right;
+	border-right: 1px solid #f1f1f1;
+}
+

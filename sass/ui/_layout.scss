@@ -21,7 +21,7 @@
 
 .site-title {
 	@extend %font-secondary;
-	@extend %margin--bottom;
+	@extend %lap-margin--bottom;
 	@include font-size(44px);
 	color: #2a36b1;
 
@@ -63,7 +63,9 @@
 
 .page-footer {
 	@extend %padding--top;
+	@extend %padding-dbl--sides;
 	@extend %text--center;
+	@include font-size(18px);
 	border-top: 1px solid #f1f1f1;
 }
 
